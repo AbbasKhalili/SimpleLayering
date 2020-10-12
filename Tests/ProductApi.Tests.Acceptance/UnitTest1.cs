@@ -8,7 +8,7 @@ namespace ProductApi.Tests.Acceptance
         [Fact]
         public void Test1()
         {
-
+            //todo: http call to testing from api
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Product.Domain
 {
-    public class Class1
+    public class Product
     {
     }
 }
