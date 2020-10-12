@@ -10,5 +10,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Bootstrap\Product.Bootstrap.csproj" />
+    <ProjectReference Include="..\Product.Database.Migration\Product.Database.Migration.csproj" />
+    <ProjectReference Include="..\Product.Facade.Contracts\Product.Facade.Contracts.csproj" />
+  </ItemGroup>
+
 
 </Project>

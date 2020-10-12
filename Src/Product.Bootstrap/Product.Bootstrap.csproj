@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Core\Product.Core.csproj" />
+    <ProjectReference Include="..\Product.Facade.Contracts\Product.Facade.Contracts.csproj" />
+    <ProjectReference Include="..\Product.Facade\Product.Facade.csproj" />
+    <ProjectReference Include="..\Product.Persistence\Product.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
